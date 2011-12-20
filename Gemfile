@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.11'
+<<<<<<< HEAD
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -38,3 +39,15 @@ end
 # group :development, :test do
 #   gem 'webrat'
 # end
+=======
+gem 'sqlite3', '1.3.3'
+
+group :development do
+  gem 'rspec-rails', '2.6.1'
+end
+
+group :test do
+  gem 'rspec-rails', '2.6.1'
+  gem 'webrat', '0.7.1'
+end
+>>>>>>> 414a04203fa75cffa5d6370dcdf214a4ee141f23

@@ -7,7 +7,15 @@ SampleApp::Application.configure do
   # and recreated between test runs.  Don't rely on the data there!
   config.cache_classes = true
 
+<<<<<<< HEAD
   # Log error messages when you accidentally call methods on nil.
+=======
+  # Configure static asset server for tests with Cache-Control for performance
+  config.serve_static_assets = true
+  config.static_cache_control = "public, max-age=3600"
+
+  # Log error messages when you accidentally call methods on nil
+>>>>>>> 414a04203fa75cffa5d6370dcdf214a4ee141f23
   config.whiny_nils = true
 
   # Show full error reports and disable caching

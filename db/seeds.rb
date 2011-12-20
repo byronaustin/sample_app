@@ -3,5 +3,10 @@
 #
 # Examples:
 #
+<<<<<<< HEAD
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+=======
+#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+#   Mayor.create(name: 'Emanuel', city: cities.first)
+>>>>>>> 414a04203fa75cffa5d6370dcdf214a4ee141f23
